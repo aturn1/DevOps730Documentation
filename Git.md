@@ -192,3 +192,22 @@ This command will:
 This approach helps you manage which files are tracked by Git and which are ignored, keeping your repository clean and focused on relevant files.
 
 ---
+
+
+Your notes on Git branching are spot on! Here's a quick overview and some additional details:
+
+### Creating Branches
+- **Create a branch**: `git branch <branchname>`
+- **Create and switch to a branch**: `git checkout -b <branchname>` or `git switch -c <branchname>`
+
+### Switching Branches
+- **Switch to an existing branch**: `git checkout <branchname>` or `git switch <branchname>`
+
+### Listing Branches
+- **List all branches**: `git branch`
+
+### Key Points
+- A branch starts as a copy of the branch it was created from, inheriting all its commits.
+- **Remote branches**: If you're working with remote repositories, you might need to fetch updates to see remote branches (`git fetch`) or view remote branches (`git branch -r`).
+
+
